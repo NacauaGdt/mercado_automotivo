@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area</title>
+</head>
+<body>
+    <!-- Formulário para adicionar alocação -->
+    <form method="post">
+        <hr />
+        <h2><strong>Adicionar area</strong></h2>
+        <hr />
+        <p>
+            <input
+                type="nome"
+                name="nome"
+                placeholder="Digite o nome"
+                required
+            />
+        </p>
+        <p>
+            <input
+                type="id_concessionaria"
+                name="id_concessionaria"
+                placeholder="Digite o id da concessionária"
+                required
+            />
+        </p>
+        <p><button type="submit" name="addArea">Adicionar</button></p>
+    </form>
+
+    <!-- Formulário para receber alocação -->
+    <form method="post">
+        <hr />
+        <h2><strong>Receber area</strong></h2>
+        <hr />
+        <p>
+            <input
+                type="id_area"
+                name="id_area"
+                placeholder="Digite o id da area"
+                required
+            />
+        </p>
+        <p><button type="submit" name="receberArea">Receber</button></p>
+    </form>
+
+    <!-- Formulário para remover alocação -->
+    <form method="post">
+        <hr />
+        <h2><strong>Remover area</strong></h2>
+        <hr />
+        <p>
+            <input
+                type="id_area"
+                name="id_area"
+                placeholder="Digite o id da area"
+                required
+            />
+        </p>
+        <p><button type="submit" name="removeArea">Remover</button></p>
+    </form>
+
+    <!-- Formulário para atualizar alocação -->
+    <form method="post">
+        <hr />
+        <h2><strong>Atualizar area</strong></h2>
+        <hr />
+        <p>
+            <input
+                type="id_area"
+                name="id_area"
+                placeholder="Digite o id da area"
+                required
+            />
+        </p>
+        <p>
+            <input
+                type="nome"
+                name="nome"
+                placeholder="Digite a nome"
+                required
+            />
+        </p>
+        <p>
+            <input
+                type="id_concessionaria"
+                name="id_concessionaria"
+                placeholder="Digite o id da concessionária"
+                required
+            />
+        </p>
+        <p><button type="submit" name="updateArea">Atualizar</button></p>
+    </form>
+
+</body>
+</html>

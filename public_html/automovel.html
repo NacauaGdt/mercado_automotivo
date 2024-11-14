@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automovel</title>
+</head>
+<body>
+    <!-- Formulário para adicionar alocação -->
+    <form method="post">
+        <hr />
+        <h2><strong>Adicionar automovel</strong></h2>
+        <hr />
+        <p>
+            <input
+                type="modelo"
+                name="modelo"
+                placeholder="Digite o modelo"
+                required
+            />
+        </p>
+        <p>
+            <input
+                type="preco"
+                name="preco"
+                placeholder="Digite o preco"
+                required
+            />
+        </p>
+        <p>
+            <input
+                type="id_area"
+                name="id_area"
+                placeholder="Digite o id da area"
+                required
+            />
+        </p>
+        <p><button type="submit" name="addAutomovel">Adicionar</button></p>
+    </form>
+
+    <!-- Formulário para receber alocação -->
+    <form method="post">
+        <hr />
+        <h2><strong>Receber automovel</strong></h2>
+        <hr />
+        <p>
+            <input
+                type="id_automovel"
+                name="id_automovel"
+                placeholder="Digite o id do automovel"
+                required
+            />
+        </p>
+        <p><button type="submit" name="receberAutomovel">Receber</button></p>
+    </form>
+
+    <!-- Formulário para remover alocação -->
+    <form method="post">
+        <hr />
+        <h2><strong>Remover automovel</strong></h2>
+        <hr />
+        <p>
+            <input
+                type="id_automovel"
+                name="id_automovel"
+                placeholder="Digite o id da area"
+                required
+            />
+        </p>
+        <p><button type="submit" name="removeAutomovel">Remover</button></p>
+    </form>
+
+    <!-- Formulário para atualizar alocação -->
+    <form method="post">
+        <hr />
+        <h2><strong>Atualizar automovel</strong></h2>
+        <hr />
+        <p>
+            <input
+                type="id_automovel"
+                name="id_automovel"
+                placeholder="Digite o id do automovel"
+                required
+            />
+        </p>
+        <p>
+            <input
+                type="modelo"
+                name="modelo"
+                placeholder="Digite a modelo"
+                required
+            />
+        </p>
+        <p>
+            <input
+                type="precoNovo"
+                name="precoNovo"
+                placeholder="Digite o id do automovel"
+                required
+            />
+        </p>
+        <p>
+            <input
+                type="id_area"
+                name="id_area"
+                placeholder="Digite o id da area"
+                required
+            />
+        </p>
+        <p><button type="submit" name="updateAutomovel">Atualizar</button></p>
+    </form>
+
+</body>
+</html>

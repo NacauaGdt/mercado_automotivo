@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alocação</title>
+</head>
+<body>
+    <!-- Formulário para adicionar alocação -->
+    <form method="post">
+        <hr />
+        <h2><strong>Adicionar Alocação</strong></h2>
+        <hr />
+        <p>
+            <input
+                type="quantidade"
+                name="quantidade"
+                placeholder="Digite a quantidade"
+                required
+            />
+        </p>
+        <p>
+            <input
+                type="id_veiculo"
+                name="id_veiculo"
+                placeholder="Digite o id do veículo"
+                required
+            />
+        </p>
+        <p>
+            <input
+                type="id_cliente"
+                name="id_cliente"
+                placeholder="Digite o id do cliente"
+                required
+            />
+        </p>
+        <p>
+            <input
+                type="id_concessionaria"
+                name="id_concessionaria"
+                placeholder="Digite o id da concessionária"
+                required
+            />
+        </p>
+        <p><button type="submit" name="addAlocacao">Adicionar</button></p>
+    </form>
+
+    <!-- Formulário para receber alocação -->
+    <form method="post">
+        <hr />
+        <h2><strong>Receber Alocação</strong></h2>
+        <hr />
+        <p>
+            <input
+                type="id_alocacao"
+                name="id_alocacao"
+                placeholder="Digite o id da alocação"
+                required
+            />
+        </p>
+        <p><button type="submit" name="receberAlocacao">Receber</button></p>
+    </form>
+
+    <!-- Formulário para remover alocação -->
+    <form method="post">
+        <hr />
+        <h2><strong>Remover Alocação</strong></h2>
+        <hr />
+        <p>
+            <input
+                type="id_alocacao_remove"
+                name="id_alocacao_remove"
+                placeholder="Digite o id da alocação para remover"
+                required
+            />
+        </p>
+        <p><button type="submit" name="removeAlocacao">Remover</button></p>
+    </form>
+
+    <!-- Formulário para atualizar alocação -->
+    <form method="post">
+        <hr />
+        <h2><strong>Atualizar Alocação</strong></h2>
+        <hr />
+        <p>
+            <input
+                type="id_alocacao_update"
+                name="id_alocacao_update"
+                placeholder="Digite o id da alocação"
+                required
+            />
+        </p>
+        <p>
+            <input
+                type="quantidade_update"
+                name="quantidade_update"
+                placeholder="Digite a quantidade"
+                required
+            />
+        </p>
+        <p>
+            <input
+                type="id_veiculo_update"
+                name="id_veiculo_update"
+                placeholder="Digite o id do veículo"
+                required
+            />
+        </p>
+        <p>
+            <input
+                type="id_cliente_update"
+                name="id_cliente_update"
+                placeholder="Digite o id do cliente"
+                required
+            />
+        </p>
+        <p>
+            <input
+                type="id_concessionaria_update"
+                name="id_concessionaria_update"
+                placeholder="Digite o id da concessionária"
+                required
+            />
+        </p>
+        <p><button type="submit" name="updateAlocacao">Atualizar</button></p>
+    </form>
+
+</body>
+</html>

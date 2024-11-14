@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente</title>
+</head>
+<body>
+    <!-- Formulário para adicionar alocação -->
+    <form method="post">
+        <hr />
+        <h2><strong>Adicionar cliente</strong></h2>
+        <hr />
+        <p>
+            <input
+                type="nome"
+                name="nome"
+                placeholder="Digite o nome"
+                required
+            />
+        </p>
+        <p><button type="submit" name="addCliente">Adicionar</button></p>
+    </form>
+
+    <!-- Formulário para receber alocação -->
+    <form method="post">
+        <hr />
+        <h2><strong>Receber cliente</strong></h2>
+        <hr />
+        <p>
+            <input
+                type="id_cliente"
+                name="id_cliente"
+                placeholder="Digite o id do cliente"
+                required
+            />
+        </p>
+        <p><button type="submit" name="receberCliente">Receber</button></p>
+    </form>
+
+    <!-- Formulário para remover alocação -->
+    <form method="post">
+        <hr />
+        <h2><strong>Remover cliente</strong></h2>
+        <hr />
+        <p>
+            <input
+                type="id_cliente"
+                name="id_cliente"
+                placeholder="Digite o id do cliente"
+                required
+            />
+        </p>
+        <p><button type="submit" name="removeCLiente">Remover</button></p>
+    </form>
+
+    <!-- Formulário para atualizar alocação -->
+    <form method="post">
+        <hr />
+        <h2><strong>Atualizar cliente</strong></h2>
+        <hr />
+        <p>
+            <input
+                type="id_cliente"
+                name="id_cliente"
+                placeholder="Digite o id do cliente"
+                required
+            />
+        </p>
+        <p>
+            <input
+                type="nome_novo"
+                name="nome_novo"
+                placeholder="Digite o nome do cliente"
+                required
+            />
+        </p>
+        <p><button type="submit" name="updatecliente">Atualizar</button></p>
+    </form>
+
+</body>
+</html>
